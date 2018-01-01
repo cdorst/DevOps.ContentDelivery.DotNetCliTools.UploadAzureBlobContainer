@@ -1,7 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>dotnet-upload-blob</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Description>DotNetCliTool uploads a directory of content to an Azure Storage blob container</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CDorst.DevOps.ContentDelivery.DotNetCliTools.UploadAzureBlobContainer</PackageId>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Common.Functions.BuildCommandLineArgConfiguration" Version="1.0.0" />
+    <PackageReference Include="CDorst.DevOps.ContentDelivery.Functions.UploadDirectoryToAzureBlobContainer" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
