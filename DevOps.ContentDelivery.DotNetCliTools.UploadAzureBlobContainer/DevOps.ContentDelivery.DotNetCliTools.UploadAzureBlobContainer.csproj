@@ -12,12 +12,12 @@
     <Description>DotNetCliTool uploads a directory of content to an Azure Storage blob container</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.DevOps.ContentDelivery.DotNetCliTools.UploadAzureBlobContainer</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CDorst.Common.Functions.BuildCommandLineArgConfiguration" Version="1.0.0" />
-    <PackageReference Include="CDorst.DevOps.ContentDelivery.Functions.UploadDirectoryToAzureBlobContainer" Version="1.0.2" />
+    <PackageReference Include="CDorst.DevOps.ContentDelivery.Functions.UploadDirectoryToAzureBlobContainer" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
